@@ -28,7 +28,7 @@
       #map {
         height: 500px;
         width: 100%;
-        border: solid black 1px;
+        border: solid black 2px;
       }
     </style>
 
@@ -87,7 +87,7 @@
             <h2 class="section-heading text-white">Conheça a Super Nerd</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">
-              <video width="320" height="240" controls>
+              <video width="100%" height="240" controls>
                 <source src="movie.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Your browser does not support the video tag.
@@ -161,8 +161,8 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 ml-auto text-center formulario">
-            <form class="componente_form" name="contactform" method="post" action="send_form_email.php">
+          <div class="col-lg-6 col-md-6 col-sm-6 ml-auto text-center formulario">
+            <form name="contactform" method="post" action="send_form_email.php">
               <label for="first_name">Nome *</label><br>
               <input class="formulario_input"  type="text" name="first_name" maxlength="50" size="30"><br>
               <label for="last_name">Sobrenome *</label><br>
